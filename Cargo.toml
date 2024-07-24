@@ -1,0 +1,13 @@
+[package]
+name = "cli-parser"
+version = "0.1.0"
+edition = "2021"
+authors = ["Georgios Zarpapis <gzarpapis@hotmail.com>"]
+description = "Lightweight API for parsing CLI arguments"
+license = "MIT OR Apache-2.0"
+keywords = ["command", "line", "interface", "cli", "parser"]
+repository = "https://github.com/gzarpapis/cli-parser"
+
+[lib]
+name = "cliparser"
+path = "src/lib.rs"
